@@ -1,0 +1,26 @@
+.boat {
+    position: relative;
+    width: 100px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .sail {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #0066cc;
+  }
+  
+  .hull {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 50px;
+    height: 60px;
+    background-color: #0066cc;
+  }
